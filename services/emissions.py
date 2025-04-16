@@ -43,3 +43,4 @@ def estimate_grid_emissions(energy_kwh: float, region: str) -> dict:
         raise Exception(f"Climatiq API error: {response.text}")
 
     return response.json()
+
